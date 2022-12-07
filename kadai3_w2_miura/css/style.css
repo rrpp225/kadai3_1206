@@ -46,7 +46,6 @@ img {
 
 /* ここから始まる */
 .container{
-    width: 100%;
     background-color: #eee;
     margin: 0 auto;
     padding: 20px;
@@ -60,6 +59,7 @@ h1{
 
 .wrap{
     display: flex;
+    justify-content: space-between;
     max-width: 960px;
     margin: 0 auto;
 }
